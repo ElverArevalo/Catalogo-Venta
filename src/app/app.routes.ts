@@ -8,17 +8,7 @@ import { ProductoComponent } from './pages/producto/producto.component';
 
 
 const appRoutes: Routes =[
-    {
-path: '',
-component: PagesComponent,
-children:[
-    { path:'dashboard', component: DashboardComponent},
-    { path:'linea', component: LineaComponent},
-    { path:'categoria', component: CategoriaComponent},
-    { path:'producto', component: ProductoComponent},
-    {path:'', redirectTo: '/dashboard', pathMatch: 'full'},
-]
-    },
+   
  { path:'', component: PagesComponent},
 
  { path:'login', component: LoginComponent},
