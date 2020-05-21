@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "catalogoVentas"
+    }
+  },
+  "defaultProject": "catalogoVentas",
+  "cli": {
+    "analytics": "71ca8177-f7a7-4ec7-98dd-c784c1c763a8"
+  }
 }
